@@ -42,7 +42,6 @@ class QuerydslApplicationTests {
 				.fetchOne();
 
 		assertThat(result).isEqualTo(hello);
-
 		// lombok으로 세팅
 		assertThat(result.getId()).isEqualTo(hello.getId());
 	}
